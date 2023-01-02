@@ -1,0 +1,318 @@
+a:focus{
+    color: #000000!important;
+    border: #000000 solid 2px;
+}
+.navbar-focus:focus{
+    color: #000000!important;
+    border: #000000 solid;
+}
+.btn-focus:focus{
+    border: #000000 solid;
+    background-color: #EF763E!important;
+}
+
+
+.site-navigation li{
+    margin: 0 10px 0 10px;
+}
+    .site-navigation a{
+        font-weight: 600;
+    }
+
+
+.mini-titre{
+    font-size: 16px;
+}
+.social{
+        width: 40px;
+        height: 40px;
+        border-radius: 13px 13px 13px 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: #000000 solid;
+}
+    .social span{
+        color: #000000!important;
+    }
+    .social:focus,
+    .social:hover{
+        background-color: #ffffff;
+    }
+    
+
+
+    .twitter{
+        position:unset;
+        display: flex;
+        justify-content: center;
+    }
+        .twitter .social:hover span,
+        .twitter .social:focus span{
+            color: #2fa5ff!important;
+        }
+        .twitter .social:active span{
+            color: #ffffff!important;
+        }
+
+    .facebook{
+        position:unset;
+        display: flex;
+        justify-content: center;
+    }
+        .facebook span{
+            margin-top: 2px;
+        }
+        .facebook .social:hover span,
+        .facebook .social:focus span{
+            color: #6693F5!important;
+        }
+        .facebook .social:active span{
+            color: #ffffff!important;
+        }
+
+    .dribbble{
+        position:unset;
+        display: flex;
+        justify-content: center;
+    }
+        .dribbble .social:hover span,
+        .dribbble .social:focus span{
+            color: #ff76ad!important;
+        }
+        .dribbble .social:active span{
+            color: #ffffff!important;
+        }
+
+    .instagram{
+        position:unset;
+        display: flex;
+        justify-content: center;
+    }
+        .instagram .social:hover span,
+        .instagram .social:focus span{
+            background: -webkit-linear-gradient(45deg,#eac344, #FF6666, #ff31fc);
+            background-clip:text;
+            -webkit-background-clip: text;
+            color: transparent!important;
+        }
+        .instagram .social:active span{
+            color: #ffffff!important;
+            background-color: #ffffff;
+        }
+
+@media (min-width: 768px) {
+    .facebook {
+        bottom: 0px;
+    }
+    .dribbble {
+        bottom: 0px;
+    }
+    .instagram {
+        bottom: 0px;
+    }
+}
+
+blockquote{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+blockquote p{
+    font-size: 1em;
+}
+    figcaption{
+        color: #333333;
+    }
+
+.col-sm-6{
+    margin: 15px 15px 15px 15px;
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .col-sm-6 a{
+        width: 320px;
+        height: 320px;
+        margin-bottom: 10px;
+    }
+        .col-sm-6 img{
+            width: 100%;
+            padding: 0 0 0 0;
+            margin: 0 0 0 0;
+        }
+
+@media (max-width: 450px){
+    .col-sm-6{
+        width: 100%;
+    }
+}        
+        .col-sm-6 a{
+            width: 320px;
+            height: 100%;
+        }
+    
+
+@media (max-width:372px){
+    footer{
+        height: 150px;
+    }
+}
+
+
+    footer h2{
+        margin-top: -10px;
+        margin-bottom: 20px;
+        color: #000000!important;
+        font-size: 1em;
+    }
+    footer .container{
+        max-height: 110px;
+    }
+        footer .col-sm-12{
+            max-height: 110px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+.social-flex{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.black{
+    color: #000000!important;
+}
+.black:hover{
+    color: #000000!important;
+}
+
+strong{
+    font-weight: normal;
+}
+
+.portfolio-row .col-sm-6{
+    height: 100%;
+}
+
+.contact{
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.scrollToTop{
+    background-color: #311E16;
+}
+.scrollToTop span{
+    color: #D2CECC;
+}
+    .scrollToTop:hover,
+    .scrollToTop:focus {
+        background-color: #000000;
+    }
+    .scrollToTop:hover span,
+    .scrollToTop:focus span{
+        color: #ffffff;
+    }
+
+    .formulary-section{
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+.formulary{
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .formulary p{
+        margin-left: 10px;
+    }
+    .formulary .col-sm-6{
+        width: 100%;
+    }
+    .formulary form{
+        width: 95%;
+    }
+        .form-group label{
+            font-size: large
+        }
+    .form-precision{
+        width: 100%;
+        font-style: italic;
+        font-size: medium;
+        margin-left: 35px;
+        margin-bottom: 15px;
+        color:#B30000;
+    }
+
+    .formulary-section{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        max-width: none;
+        width: 100%;
+    }
+
+        
+
+    .address a{
+        text-decoration: underline;
+        color:#1241db!important;
+    }
+        .address a:hover,
+        .address a:focus{
+            color: #383838!important;
+        }
+        .address a:active{
+            color: #B30000!important;
+        }
+    .address p{
+        width: 100%;
+    }
+
+.contact-section{
+    padding-bottom: 10px;
+}
+
+
+iframe{
+    padding: 0 0 0 0;
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 420px;
+}
+
+@media (min-width: 450px){
+    .formulary .col-sm-6{
+        width: 450px;
+    }
+    .address{
+        width: 450px;
+    }
+}
+@media (min-width: 1000px){
+    .formulary-section{
+        width: 100%;
+    }
+    .formulary{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .contact-section{
+        width: 100%;
+        padding-left: 0px;
+    }
+}
